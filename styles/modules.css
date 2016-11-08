@@ -39,11 +39,10 @@ article.projects {
     display: none;
   }
   .main-nav {
-    background-image: url(/image/background.png);
-    display: block;
-    /*padding: .2em .2em .2em 2em;*/
+    display: inline-block;
+    padding: .2em .2em .2em 2em;
     position:fixed;
-    height: 35%;
+    height: 5%;
     width:100%
 
   }
