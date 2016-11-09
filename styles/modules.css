@@ -1,5 +1,5 @@
-.project p {
-  display: block;
+article p {
+  display: inline-block;
   background-image: black;
 }
 .heading-group-h1 {
@@ -40,18 +40,17 @@ article.projects {
   }
   .main-nav {
     display: inline-block;
-    padding: .2em .2em .2em 2em;
     position:fixed;
-    height: 5%;
     width:100%
 
   }
   .main-nav ul {
-    margin-top: 10%;
     display: block;
   }
 
   .main-nav ul li {
+
+    height: 100%;
     display: inline;
     border-bottom: none;
   }
@@ -61,13 +60,13 @@ article.projects {
   }
   article.projects{
     display: inline-block;
-    width: 45%;
+    width: 30%;
     margin: 2% 1%;
   }
 
   @media screen and (min-width:855px) {
   article.project-view {
     display: inline-block;
-    width: 30%;
+    width: 10%;
     margin: 2% 1%;
   }
